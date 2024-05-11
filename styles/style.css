@@ -165,11 +165,60 @@ header .toogle img
     max-width: 900px;
     outline: none;
 }
-.trailer.close{
+.trailer .close{
     position: absolute;
     top: 30px;
     right: 30px;
     cursor: pointer;
     filter: invert(1);
     max-width: 32px;
+}
+
+
+@media (max-width:991px)
+{
+    header {
+        padding: 20px 50px;
+    }
+    header{
+        padding: 20px 50px;
+    }
+    header{
+        max-width: 80px;
+    }
+    header.logo{
+        max-width: 40px;
+    }
+    .banner {
+        padding: 100 50px;
+    }
+    .banner .content h2{
+        
+        font-weight: 400;
+        font-size: 2em;
+        letter-spacing:  0.051em;
+        
+    }
+    .banner .content p{
+        font-size: 1em;
+    }
+    .slide{
+        position: relative;
+        bottom: initial;
+        left: 0;
+        width: 250px;
+        height: 150px;
+        margin: 20px 0;
+    }
+    .sci{
+        position: absolute;
+        top: initial;
+        right: initial;
+        margin-top: 40px;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
 }
