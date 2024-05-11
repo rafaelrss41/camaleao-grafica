@@ -109,10 +109,14 @@ header .toogle img
 }
 .sci li a {
     text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
 }
-sci li a i{
-    filter: invert(1)
-}
+
 
 
 .slide{
