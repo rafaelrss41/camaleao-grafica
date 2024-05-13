@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
+=======
+    font-family: 'Poopins', sans-serif;
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
 }
 
 body{
     background: #f9f9f9;
     min-height: 100vh;
+<<<<<<< HEAD
     /*overflow: hidden;*/
+=======
+    overflow-x: hidden;
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
 }
 
 header{
@@ -19,16 +30,29 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+<<<<<<< HEAD
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 30px 100px;
     z-index: 100;
+=======
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
 }
 
 .logo{
     font-size: 2em;
+<<<<<<< HEAD
     color: #359381;
+=======
+    color:#359381;
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
     pointer-events: none;
     margin-right: 270px;
 }
@@ -36,6 +60,7 @@ header{
 .navigation a{
     text-decoration: none;
     color: #359381;
+<<<<<<< HEAD
     padding:  6px 15px;
     border-radius: 20px;
     margin: 0 10px;
@@ -46,6 +71,16 @@ header{
 .navigation a:hover,
 .navigation a.active{
     background: #013c23;
+=======
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover,
+.navigation a.active{
+    background: #01352c;
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
     color: #fff;
     text-transform: uppercase;
 }
@@ -58,12 +93,15 @@ header{
     height: 100vh;
 }
 
+<<<<<<< HEAD
 #text{
     position: absolute;
     font-size:  5em;
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
+=======
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
 
 .parallax img{
     position: absolute;
@@ -71,6 +109,7 @@ header{
     left: 0;
     width: 100%;
     pointer-events: none;
+<<<<<<< HEAD
 }
 
 .sec{
@@ -79,8 +118,34 @@ header{
     padding: 100px;
 }
 
+=======
+
+}
+
+#text{
+    position: absolute;
+    font-size: 4.75em;
+    color: #fff;
+}
+.sec{
+    background-color: #003329;
+    margin-top: -15px;
+    padding: 100px;
+}
+
+
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
 .sec h2{
     font-size: 3em;
     color: #fff;
     margin-bottom: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+>>>>>>> 94b03901bcbf55fc93dc94680686f96521701f22
