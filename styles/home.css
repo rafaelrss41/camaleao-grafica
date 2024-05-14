@@ -54,18 +54,16 @@ header{
 
 .navigation a:hover,
 .navigation a.active{
-    background: #013c23;
+    
     padding: 6px 15px;
     border-radius: 20px;
     margin: 0 10px;
     font-weight: 600;
-}
-.navigation a:hover,
-.navigation a.active{
     background: #01352c;
     color: #fff;
     text-transform: uppercase;
 }
+
 
 .parallax{
     position: relative;
@@ -97,7 +95,7 @@ header{
 }
 
 
-}
+
 
 #text{
     position: absolute;

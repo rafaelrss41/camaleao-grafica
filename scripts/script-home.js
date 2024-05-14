@@ -8,13 +8,10 @@ let hill5=  document.getElementById('hill5');
 window.addEventListener('scroll', () =>{
     let value = window.scrollY;
 
-    text.style.marginTop =value * 1.2 + 'px';
-    leaf.style.top =value * -1.2 + 'px';
+    text.style.marginTop =value * 1.5 + 'px';
+    leaf.style.top =value * -1.5 + 'px';
     leaf.style.left =value * 1.2 + 'px';
     hill5.style.left =value * 1.2 + 'px';
     hill4.style.left =value * -1.2 + 'px';
     hill1.style.top=value * 0.2 + 'px';
-
-
-
-})
+});
