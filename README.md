@@ -11,6 +11,3 @@ Uma breve descrição sobre este projeto!
 >Inicialmnete trata-se de uma página dinâmica com efeitos como parallax e também links para páginas com as funcionalidades e produtos da empresa, detalhados em suas repectivas páginas webs.
 
 
-
-
-
