@@ -12,5 +12,25 @@ Uma breve descrição sobre este projeto!
 
 
 
+# Testando Mermaid
+
+Pequeno teste com [Mermaid](https://mermaid.js.org)
+___
+
+```mermaid
+sequenceDiagram
+    Alice->>Jhon: Hello John, how are you?
+    John->>Alice: Im fine, Jhon!
+    Alice-)Jhon: See you later!
+```
+
+Um teste com  [Mermaid](https://mermaid.js.org),uma ferramenta para UML.Aqui este daigrama foi gerado com o Código acima.
+
+
+**_Um Diagrama de sequencia_** :white_check_mark:
+
+
+![alt text](image.png)
+
 
 
